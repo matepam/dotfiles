@@ -9,6 +9,9 @@ bindkey -e
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/mushegh/.zshrc'
 
-autoload -Uz compinit
+autoload -Uz compinit promptinit
 compinit
-# End of lines added by compinstall
+promptinit
+
+PROMPT="%~ > "
+RPROMPT="%n@%m"
