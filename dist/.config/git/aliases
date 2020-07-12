@@ -1,0 +1,18 @@
+[alias]
+  # Commit
+  c = commit
+  cm = commit -m
+
+  # Checkout
+  co = checkout
+  cob = checkout -b
+
+  # Merge
+  mnf = merge --no-ff
+
+  # Status
+  s = status -s
+
+  # Log
+  l = log --oneline --color
+  lg = log --oneline --color --graph --decorate
