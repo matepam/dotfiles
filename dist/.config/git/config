@@ -1,0 +1,6 @@
+[include]
+  path = ~/.gitconfig.local
+  path = ~/.config/git/aliases
+
+[color]
+  ui = auto
