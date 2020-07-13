@@ -4,11 +4,11 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	kitty
 
 # program launcher
 super + @space
-	urxvt
+	kitty
 
 # make sxhkd reload its configuration files:
 super + Escape
