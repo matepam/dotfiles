@@ -1,0 +1,15 @@
+[submodule "dist/.local/share/nvim/site/pack/editing/start/editorconfig-vim"]
+	path = dist/.local/share/nvim/site/pack/editing/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "dist/.local/share/nvim/site/pack/editing/start/vim-surround"]
+	path = dist/.local/share/nvim/site/pack/editing/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "dist/.local/share/nvim/site/pack/editing/start/vim-indent-object"]
+	path = dist/.local/share/nvim/site/pack/editing/start/vim-indent-object
+	url = https://github.com/michaeljsmith/vim-indent-object
+[submodule "dist/.local/share/nvim/site/pack/editing/start/auto-pairs"]
+	path = dist/.local/share/nvim/site/pack/editing/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "dist/.local/share/nvim/site/pack/git/start/vim-fugitive"]
+	path = dist/.local/share/nvim/site/pack/git/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
