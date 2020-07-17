@@ -245,3 +245,12 @@ zstyle ':completion:*' expand prefix suffix
 
 # Prompt
 eval "$(starship init zsh)"
+
+autoload -U colors && colors
+
+set_right_prompt()
+{
+  RPROMPT="%{$fg[blue]%}%(1j.✦.)%{$reset_color%}"
+}
+
+add-zsh-hook preexec set_right_prompt
