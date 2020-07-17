@@ -54,14 +54,6 @@ zle -N down-line-or-beginning-search
 [[ -n "${key[Up]}"   ]] && bindkey -- "${key[Up]}"   up-line-or-beginning-search
 [[ -n "${key[Down]}" ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
 
-# Prompt
-
-autoload -Uz promptinit
-promptinit
-
-PROMPT="%~ > "
-RPROMPT="%n@%m"
-
 # Plugins
 
 # sane zplug installation defaults
@@ -88,8 +80,6 @@ zplug "zsh-users/zsh-history-substring-search", defer:3 # (like fish)
 zplug "zsh-users/zsh-completions", depth:1 # more completions
 
 zplug "mdumitru/fancy-ctrl-z"
-
-zplug 'agkozak/agkozak-zsh-theme'
 
 # zplug 'Tarrasch/zsh-autoenv'
 # Install plugins if there are plugins that have not been installed
@@ -252,3 +242,6 @@ zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}
 # partial completion suggestions
 zstyle ':completion:*' list-suffixes
 zstyle ':completion:*' expand prefix suffix
+
+# Prompt
+eval "$(starship init zsh)"
