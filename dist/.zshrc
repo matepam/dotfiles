@@ -45,6 +45,17 @@ if (( ${+terminfo[smkx]} && ${+terminfo[rmkx]} )); then
   add-zle-hook-widget -Uz zle-line-init zle_application_mode_start
   add-zle-hook-widget -Uz zle-line-finish zle_application_mode_stop
 fi
+#
+# Completions
+autoload -Uz compinit && compinit
+
+# case insensitive path-completion
+zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*'
+
+# partial completion suggestions
+zstyle ':completion:*' list-suffixes
+zstyle ':completion:*' expand prefix suffix
+
 
 # History search
 autoload -Uz up-line-or-beginning-search down-line-or-beginning-search
@@ -80,6 +91,8 @@ zplug "zsh-users/zsh-history-substring-search", defer:3 # (like fish)
 zplug "zsh-users/zsh-completions", depth:1 # more completions
 
 zplug "mdumitru/fancy-ctrl-z"
+
+zplug "agkozak/zsh-z"
 
 # zplug 'Tarrasch/zsh-autoenv'
 # Install plugins if there are plugins that have not been installed
@@ -232,16 +245,6 @@ setopt extendedglob
 
 # Allow [ or ] whereever you want
 unsetopt nomatch
-
-# Completions
-autoload -Uz compinit && compinit
-
-# case insensitive path-completion
-zstyle ':completion:*' matcher-list 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]} l:|=* r:|=*'
-
-# partial completion suggestions
-zstyle ':completion:*' list-suffixes
-zstyle ':completion:*' expand prefix suffix
 
 # Prompt
 eval "$(starship init zsh)"
