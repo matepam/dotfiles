@@ -16,3 +16,6 @@
 [submodule "dist/.local/share/nvim/site/pack/theme/start/gruvbox"]
 	path = dist/.local/share/nvim/site/pack/theme/start/gruvbox
 	url = https://github.com/morhetz/gruvbox
+[submodule "dist/.local/share/nvim/site/pack/integration/start/tmux-navigator"]
+	path = dist/.local/share/nvim/site/pack/integration/start/tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
