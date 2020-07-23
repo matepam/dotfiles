@@ -13,3 +13,6 @@
 [submodule "dist/.local/share/nvim/site/pack/git/start/vim-fugitive"]
 	path = dist/.local/share/nvim/site/pack/git/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+[submodule "dist/.local/share/nvim/site/pack/integration/start/tmux-navigator"]
+	path = dist/.local/share/nvim/site/pack/integration/start/tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
