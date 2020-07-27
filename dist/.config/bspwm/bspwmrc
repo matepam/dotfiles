@@ -24,3 +24,6 @@ sxhkd &
 killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 polybar example &
+
+# set wallpaper
+feh --bg-center ~/.local/share/wallpapers/arch-nord-wallpaper.png
