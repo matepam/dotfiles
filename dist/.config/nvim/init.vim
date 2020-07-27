@@ -69,3 +69,6 @@ filetype indent on
 filetype plugin on
 
 set noshowmode
+
+" theme
+colorscheme nord
