@@ -6,6 +6,9 @@
 super + Return
 	kitty
 
+super + shift + Return
+	kitty -e tmux
+
 # program launcher
 super + @space
 	rofi -show drun
