@@ -1,4 +1,7 @@
 [alias]
+
+## Shortcuts
+
   # Commit
   c = commit
   cm = commit -m
@@ -6,6 +9,10 @@
   # Checkout
   co = checkout
   cob = checkout -b
+
+  # Branch
+  brm = branch -m
+  brd = branch -d
 
   # Merge
   mnf = merge --no-ff
@@ -16,3 +23,33 @@
   # Log
   l = log --oneline --color
   lg = log --oneline --color --graph --decorate
+
+  # Push
+  pso = push -u origin
+
+  # Rebase
+  re = rebase
+  reab = rebase --abort
+  reco = rebase --continue
+  resk = rebase --skip
+
+  ri = rebase --interactive
+  rim = rebase --interactive master
+
+  # Submodule
+  sub = submodule
+  subup = submodule update --init --recursive
+
+## Functional aliases
+
+  amend = commit --amend --reuse-message=HEAD
+
+  up = pull --rebase --prune
+
+  undo = reset HEAD~1 --mixed
+
+  prune = fetch --prune
+
+## Complex aliases
+
+  upr = !git pull --rebase --prune $@ && git submodule update --init --recursive
