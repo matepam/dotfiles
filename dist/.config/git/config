@@ -4,3 +4,25 @@
 
 [color]
   ui = auto
+
+[merge]
+  # ff = only
+  log = true
+  conflictstyle = diff3
+
+[status]
+  showUntrackedFiles = all
+
+[push]
+  default = simple
+
+[pull]
+  rebase = interactive
+
+[diff]
+  renames = copy
+  mnemonicPrefix = true
+
+[log]
+  abbrevCommit = true
+  decorate = short
