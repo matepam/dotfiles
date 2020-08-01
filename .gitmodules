@@ -16,3 +16,6 @@
 [submodule "dist/.local/share/nvim/site/pack/integration/start/tmux-navigator"]
 	path = dist/.local/share/nvim/site/pack/integration/start/tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "dist/.local/share/nvim/site/pack/themes/start/nord"]
+	path = dist/.local/share/nvim/site/pack/themes/start/nord
+	url = https://github.com/arcticicestudio/nord-vim

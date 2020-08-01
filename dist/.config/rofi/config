@@ -1,0 +1,29 @@
+! vim: filetype=xdefaults
+
+! Start in case insensitive mode.
+! This option can be changed at run-time using the kb-toggle-case-sensitivity key binding.
+rofi.case-sensitive: false
+
+rofi.show-icons:            false
+
+! Specify the matching algorithm used. Current the following methods are supported.
+! - normal: Match the int string.
+! - regex: Match a regex input.
+! - glob: Match a glob pattern.
+! - fuzzy: Do a fuzzy match.
+rofi.matching: fuzzy
+
+! Tokenize the input.
+rofi.tokenize: true
+
+! When one entry is left, automatically select it.
+rofi.auto-select: false
+
+! When searching sort the result based on levenshtein distance.
+rofi.levenshtein-sort: true
+
+! Enable the extended coloring options
+rofi.color-enabled: true
+
+! Path to the new theme file format
+rofi.theme: themes/nord

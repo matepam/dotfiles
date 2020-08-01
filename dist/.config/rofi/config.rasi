@@ -1,4 +1,0 @@
-configuration {
-	modi: "drun,run";
-	font: "monospace 12";
-}
