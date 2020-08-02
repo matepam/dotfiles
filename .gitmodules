@@ -34,3 +34,6 @@
 [submodule "dist/.local/share/nvim/site/pack/ux/start/goyo"]
 	path = dist/.local/share/nvim/site/pack/ux/start/goyo
 	url = https://github.com/junegunn/goyo.vim
+[submodule "dist/.local/share/nvim/site/pack/unsorted/start/fzf"]
+	path = dist/.local/share/nvim/site/pack/unsorted/start/fzf
+	url = https://github.com/junegunn/fzf.vim
