@@ -28,3 +28,9 @@
 [submodule "dist/.local/share/nvim/site/pack/ux/start/lightline-bufferline"]
 	path = dist/.local/share/nvim/site/pack/ux/start/lightline-bufferline
 	url = https://github.com/mengelbrecht/lightline-bufferline
+[submodule "dist/.local/share/nvim/site/pack/ux/start/limelight"]
+	path = dist/.local/share/nvim/site/pack/ux/start/limelight
+	url = https://github.com/junegunn/limelight.vim
+[submodule "dist/.local/share/nvim/site/pack/ux/start/goyo"]
+	path = dist/.local/share/nvim/site/pack/ux/start/goyo
+	url = https://github.com/junegunn/goyo.vim
