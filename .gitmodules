@@ -22,3 +22,9 @@
 [submodule "dist/.local/share/nvim/site/pack/ux/start/startify"]
 	path = dist/.local/share/nvim/site/pack/ux/start/startify
 	url = https://github.com/mhinz/vim-startify
+[submodule "dist/.local/share/nvim/site/pack/ux/start/lightline"]
+	path = dist/.local/share/nvim/site/pack/ux/start/lightline
+	url = https://github.com/itchyny/lightline.vim
+[submodule "dist/.local/share/nvim/site/pack/ux/start/lightline-bufferline"]
+	path = dist/.local/share/nvim/site/pack/ux/start/lightline-bufferline
+	url = https://github.com/mengelbrecht/lightline-bufferline

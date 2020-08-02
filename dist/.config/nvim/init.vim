@@ -70,5 +70,7 @@ filetype plugin on
 
 set noshowmode
 
+set showtabline=2
+
 " theme
 colorscheme nord
