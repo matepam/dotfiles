@@ -37,3 +37,9 @@
 [submodule "dist/.local/share/nvim/site/pack/unsorted/start/fzf"]
 	path = dist/.local/share/nvim/site/pack/unsorted/start/fzf
 	url = https://github.com/junegunn/fzf.vim
+[submodule "dist/.local/share/nvim/site/pack/unsorted/start/visual-multi"]
+	path = dist/.local/share/nvim/site/pack/unsorted/start/visual-multi
+	url = https://github.com/mg979/vim-visual-multi
+[submodule "dist/.local/share/nvim/site/pack/editing/start/commentary"]
+	path = dist/.local/share/nvim/site/pack/editing/start/commentary
+	url = https://github.com/tpope/vim-commentary
