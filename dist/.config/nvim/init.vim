@@ -1,9 +1,13 @@
 set nocompatible
 
 " undo history
-set history=500
-set undolevels=500
+set history=1000
+set undolevels=1000
 set undofile
+
+" backups
+set nobackup
+set noswapfile
 
 " line numbers
 set relativenumber
@@ -18,8 +22,11 @@ set textwidth=80
 set colorcolumn=+1
 
 " invisibles
-set list
-set listchars=tab:»\ ,trail:·,nbsp:·
+set list listchars=tab:›\ ,extends:→,precedes:←,nbsp:·,trail:·
+set nowrap linebreak breakindent breakindentopt=sbr showbreak=╰
+
+" complete
+set completeopt=menuone,noselect
 
 " keybindings
 
@@ -71,6 +78,9 @@ filetype plugin on
 set noshowmode
 
 set showtabline=2
+
+"
+set signcolumn=yes
 
 " theme
 set termguicolors
