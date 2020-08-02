@@ -94,6 +94,8 @@ zplug "mdumitru/fancy-ctrl-z"
 
 zplug "agkozak/zsh-z"
 
+zplug "junegunn/fzf", use:"shell/*.zsh", defer:2
+
 # zplug 'Tarrasch/zsh-autoenv'
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
