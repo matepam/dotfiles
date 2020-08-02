@@ -73,4 +73,5 @@ set noshowmode
 set showtabline=2
 
 " theme
+set termguicolors
 colorscheme nord
