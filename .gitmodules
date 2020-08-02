@@ -19,3 +19,6 @@
 [submodule "dist/.local/share/nvim/site/pack/themes/start/nord"]
 	path = dist/.local/share/nvim/site/pack/themes/start/nord
 	url = https://github.com/arcticicestudio/nord-vim
+[submodule "dist/.local/share/nvim/site/pack/ux/start/startify"]
+	path = dist/.local/share/nvim/site/pack/ux/start/startify
+	url = https://github.com/mhinz/vim-startify
