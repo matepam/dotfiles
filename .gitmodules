@@ -43,3 +43,6 @@
 [submodule "dist/.local/share/nvim/site/pack/editing/start/commentary"]
 	path = dist/.local/share/nvim/site/pack/editing/start/commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule "dist/.local/share/nvim/site/pack/editing/start/easy-align"]
+	path = dist/.local/share/nvim/site/pack/editing/start/easy-align
+	url = https://github.com/junegunn/vim-easy-align

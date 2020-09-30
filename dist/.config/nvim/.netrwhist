@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/tmp/store-set/part-of-orders-in-past-03'
+let g:netrw_dirhist_0='/home/mushegh/Projects/kdrp/code/qa-seeds/dist/1599486395180'
+let g:netrw_dirhist_9='/home/mushegh/Projects/kdrp/code/qa-seeds/dist'
+let g:netrw_dirhist_8='/home/mushegh/Projects/kdrp/code/qa-seeds/dist/1599486196666'
+let g:netrw_dirhist_7='/home/mushegh/Projects/kdrp/code/qa-seeds/dist'
+let g:netrw_dirhist_6='/home/mushegh/Projects/kdrp/code/qa-seeds/dist/1599486196666'
+let g:netrw_dirhist_5='/home/mushegh/Projects/kdrp/code/qa-seeds/dist'
+let g:netrw_dirhist_4='/home/mushegh/Projects/kdrp/code/qa-storeset-generator/steps'
+let g:netrw_dirhist_3='/home/mushegh/Projects/kdrp/code/qa-storeset-generator/test'
+let g:netrw_dirhist_2='/home/mushegh/Code/kdrp/be-services/apps/orders/src/app/orders/enums'

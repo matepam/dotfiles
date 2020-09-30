@@ -26,12 +26,15 @@ super + alt + {q,r}
 	bspc {quit,wm -r}
 
 # close and kill
-super + {_,shift + }q
+super + {shift,ctrl} + q
 	bspc node -{c,k}
 
 # toggle fullscreen
 super + f
-	bspc node -t /~fullscreen
+	bspc node -t fullscreen
+
+super + shift + f
+	bspc node -t fullscreen
 
 # set the node flags
 #super + ctrl + {m,x,y,z}

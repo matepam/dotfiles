@@ -9,6 +9,7 @@
   # ff = only
   log = true
   conflictstyle = diff3
+	tool = bc
 
 [status]
   showUntrackedFiles = all
